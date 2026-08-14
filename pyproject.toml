@@ -1,0 +1,19 @@
+[project]
+name = "ai-test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=7.3.0",
+    "jupyter>=1.1.1",
+    "torch>=2.13.0",
+    "torchvision>=0.28.0",
+]
+
+[project.scripts]
+ai-test = "ai_test:main"
+
+[build-system]
+requires = ["uv_build>=0.12.4,<0.13.0"]
+build-backend = "uv_build"
