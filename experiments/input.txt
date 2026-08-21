@@ -1,0 +1,7 @@
+hello world
+hello transformer
+this is a small language model
+the transformer learns to predict the next token
+machine learning is interesting
+hello world
+hello transformer
